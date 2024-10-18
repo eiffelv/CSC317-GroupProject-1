@@ -3,7 +3,7 @@ A COOL & Accessible one-page website containing at least 6 facts about a music g
 
 ## Members:
 - Eiffel Valentino (eiffelv)
-- Joseph Esquivel ()
+- Joseph Esquivel (jayesquivel)
 
 ## Deliverables: 
 - GitHub Repository
