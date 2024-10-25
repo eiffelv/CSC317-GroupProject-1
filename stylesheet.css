@@ -1,0 +1,14 @@
+#navbar{
+    display: flex;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    background-color: #f9c244;
+}
+
+.navbar a{
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14;
+}
