@@ -1,14 +1,49 @@
-#navbar{
-    display: flex;
+/* Reset some default browser styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
     position: sticky;
     top: 0;
-    overflow: hidden;
-    background-color: #f9c244;
-}
-
-.navbar a{
-    float: left;
-    display: block;
-    text-align: center;
-    padding: 14;
-}
+    background-color: #1A1A1A;
+    color: white;
+    padding: 15px 20px;
+    z-index: 1000; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  .navbar nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .navbar nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 8px 12px;
+  }
+  
+  .navbar nav a:hover {
+    background-color: hsl(23, 100%, 48%); /* Accent color */
+    border-radius: 5px;
+  }
+  
+  .content {
+    padding: 20px;
+    background-color: hsl(23, 100%, 48%);
+  }
+ 
+  /* Add content to allow scrolling */
+  .placeholder {
+    height: 2000px; 
+    background: linear-gradient(to bottom, #e2e2e2, #f9f9f9);
+  }
