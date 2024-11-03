@@ -1,6 +1,5 @@
 /* Import Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap');
-
 /* Reset some default browser styling */
 * {
   padding: 0;
@@ -23,8 +22,7 @@ body {
   color: white;
   padding: 15px 20px;
   z-index: 1000;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  /* Subtle shadow for depth */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }
 
 .navbar .logo {
@@ -52,23 +50,18 @@ body {
 }
 
 .navbar nav a:hover {
-  background-color: hsl(23, 100%, 48%);
-  /* Accent color */
+  background-color: hsl(23, 100%, 48%); /* Accent color */
   border-radius: 5px;
-}
-
-.navbar nav ul {
-  flex-direction: column;
-  gap: 10px;
 }
 
 .content {
   height: auto;
   padding: 20px;
-  background-color: hsl(23,
-      100%,
-      48%);
-  /* good to keep the Accent color and background color the same */
+  background-color: hsl(
+    23,
+    100%,
+    48%
+  ); /* good to keep the Accent color and background color the same */
 }
 .About-wrapper {
   background-color: rgba(0, 0, 0, 0.4);
@@ -133,39 +126,14 @@ body {
 .image-content-Goku img,
 .image-content-Vegeta img,
 .image-content-Frieza img {
-.image-content-Vegeta img {
-
   max-width: 200px;
   height: 250px;
   border-radius: 8px;
 }
-
-.content-wrapper-Gohan {
-  display: flex;
-  align-items: flex-start;
-  gap: 20px;
-  padding: 20px;
-}
-
-.text-content {
-  flex: 1;
-}
-
 .image-content-Gohan img {
   max-width: 200px;
   max-height: 250px;
   border-radius: 8px;
-}
-
-.content-wrapper-Piccolo {
-  display: flex;
-  align-items: flex-start;
-  gap: 20px;
-  padding: 20px;
-}
-
-.text-content {
-  flex: 1;
 }
 .image-content-Piccolo img {
   max-width: 200px;
@@ -175,18 +143,6 @@ body {
 }
 
 /* Media query for mobile screens. */
-.footer {
-  background-color: #1a1a1a;
-  color: white;
-  padding: 20px;
-}
-
-.footer-content {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-}
-
 @media (max-width: 600px) {
   .navbar {
     flex-direction: column;
@@ -198,5 +154,16 @@ body {
     gap: 10px;
   }
 }
+
+.footer {
+  background-color: #1a1a1a;
+  color: white;
+  padding: 20px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
 
