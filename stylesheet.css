@@ -53,7 +53,7 @@ body {
 }
 
 .content {
-  height: 2000px;
+  height: auto;
   padding: 20px;
   background-color: hsl(
     23,
@@ -109,4 +109,29 @@ body {
   max-width: 200px;
   height: 250px;
   border-radius: 8px;
+}
+.content-wrapper-Piccolo {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 20px;
+}
+.text-content {
+  flex: 1;
+}
+.image-content-Piccolo img {
+  max-width: 200px;
+  height: 250px;
+  border-radius: 8px;
+}
+
+@media (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    padding: 10px;
+  }
+}
+.navbar nav ul {
+  flex-direction: column;
+  gap: 10px;
 }
