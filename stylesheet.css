@@ -1,3 +1,6 @@
+/* Import Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap');
+
 /* Reset some default browser styling */
 * {
   padding: 0;
@@ -6,7 +9,8 @@
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Red Hat Text", Arial, sans-serif;
+  font-weight: 500;
 }
 
 .navbar {
@@ -19,7 +23,8 @@ body {
   color: white;
   padding: 15px 20px;
   z-index: 1000;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  /* Subtle shadow for depth */
 }
 
 .navbar .logo {
@@ -48,18 +53,23 @@ body {
 }
 
 .navbar nav a:hover {
-  background-color: hsl(23, 100%, 48%); /* Accent color */
+  background-color: hsl(23, 100%, 48%);
+  /* Accent color */
   border-radius: 5px;
+}
+
+.navbar nav ul {
+  flex-direction: column;
+  gap: 10px;
 }
 
 .content {
   height: auto;
   padding: 20px;
-  background-color: hsl(
-    23,
-    100%,
-    48%
-  ); /* good to keep the Accent color and background color the same */
+  background-color: hsl(23,
+      100%,
+      48%);
+  /* good to keep the Accent color and background color the same */
 }
 
 .content-wrapper-Goku {
@@ -85,44 +95,65 @@ body {
   gap: 20px;
   padding: 20px;
 }
+
 .reverse-layout {
   flex-direction: row-reverse;
 }
+
 .text-content {
   flex: 1;
 }
+
 .image-content-Vegeta img {
   max-width: 200px;
   height: 250px;
   border-radius: 8px;
 }
+
 .content-wrapper-Gohan {
   display: flex;
   align-items: flex-start;
   gap: 20px;
   padding: 20px;
 }
+
 .text-content {
   flex: 1;
 }
+
 .image-content-Gohan img {
   max-width: 200px;
   height: 250px;
   border-radius: 8px;
 }
+
 .content-wrapper-Piccolo {
   display: flex;
   align-items: flex-start;
   gap: 20px;
   padding: 20px;
 }
+
 .text-content {
   flex: 1;
 }
+
 .image-content-Piccolo img {
   max-width: 200px;
   height: 250px;
   border-radius: 8px;
+}
+
+.footer {
+  background-color: #1a1a1a;
+  color: white;
+  padding: 20px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
 
 @media (max-width: 600px) {
@@ -130,8 +161,4 @@ body {
     flex-direction: column;
     padding: 10px;
   }
-}
-.navbar nav ul {
-  flex-direction: column;
-  gap: 10px;
 }
