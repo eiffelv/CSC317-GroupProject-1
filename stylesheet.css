@@ -1,3 +1,5 @@
+/* Import Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap');
 /* Reset some default browser styling */
 * {
   padding: 0;
@@ -6,7 +8,8 @@
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Red Hat Text", Arial, sans-serif;
+  font-weight: 500;
 }
 
 .navbar {
