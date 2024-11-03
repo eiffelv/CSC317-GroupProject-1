@@ -1,49 +1,112 @@
 /* Reset some default browser styling */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: Arial, sans-serif;
-  }
-  
-  .navbar {
-    position: sticky;
-    top: 0;
-    background-color: #1A1A1A;
-    color: white;
-    padding: 15px 20px;
-    z-index: 1000; 
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-  }
-  
-  .navbar nav ul {
-    list-style-type: none;
-    display: flex;
-    justify-content: space-around;
-  }
-  
-  .navbar nav a {
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
-    padding: 8px 12px;
-  }
-  
-  .navbar nav a:hover {
-    background-color: hsl(23, 100%, 48%); /* Accent color */
-    border-radius: 5px;
-  }
-  
-  .content {
-    padding: 20px;
-    background-color: hsl(23, 100%, 48%);
-  }
- 
-  /* Add content to allow scrolling */
-  .placeholder {
-    height: 2000px; 
-    background: linear-gradient(to bottom, #e2e2e2, #f9f9f9);
-  }
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1a1a1a;
+  color: white;
+  padding: 15px 20px;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.navbar .logo {
+  width: 40px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.navbar nav {
+  flex-grow: 1;
+}
+
+.navbar nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+  margin: 0;
+}
+
+.navbar nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 8px 12px;
+}
+
+.navbar nav a:hover {
+  background-color: hsl(23, 100%, 48%); /* Accent color */
+  border-radius: 5px;
+}
+
+.content {
+  height: 2000px;
+  padding: 20px;
+  background-color: hsl(
+    23,
+    100%,
+    48%
+  ); /* good to keep the Accent color and background color the same */
+}
+
+.content-wrapper-Goku {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 20px;
+}
+
+.text-content {
+  flex: 1;
+}
+
+.image-content-Goku img {
+  max-width: 200px;
+  height: 250px;
+  border-radius: 8px;
+}
+
+.content-wrapper-Vegeta {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 20px;
+}
+.reverse-layout {
+  flex-direction: row-reverse;
+}
+.text-content {
+  flex: 1;
+}
+.image-content-Vegeta img {
+  max-width: 200px;
+  height: 250px;
+  border-radius: 8px;
+}
+.content-wrapper-Gohan {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 20px;
+}
+.text-content {
+  flex: 1;
+}
+.image-content-Gohan img {
+  max-width: 200px;
+  height: 250px;
+  border-radius: 8px;
+}
