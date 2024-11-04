@@ -1,6 +1,6 @@
 # Dragonball Z: The Ultimate Story
 
-![Dragonball-z-logo.png](Dragonball Z Logo)
+![Dragonball Z Logo](Dragonball-z-logo.png)
 
 Dive inside the story inside Dragonball Z as we go through what it is about and the characters of Dragonball Z!
 
@@ -33,7 +33,7 @@ A CSC 317 Group Project
 
 - [v] A design for Large Screens such as your laptop/tablet
 - [v] A design for Mobile Screens (less than 600px in width)
-  - [https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Media_queries](MDN Link)
+  - [MDN Link](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Media_queries)
 
 - [v] Uses only CSS and HTML
 - [v] Clicking Navbar Menu Options does not lead anywhere
