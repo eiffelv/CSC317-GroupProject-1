@@ -20,15 +20,15 @@ A COOL & Accessible one-page website containing at least 6 facts about a music g
 
 ## Requirements
 
-- [ ] Sticky Navbar
+- [v] Sticky Navbar
 - [ ] Uses Pseudo-Classes/Pseudo-Elements (at least, 8 distinct ones!)
 - [v] Uses Google Font
 - [v] Primarily uses Flexbox layout (Grid is also fine!)
   - Can use box model for a single component
-- [ ] Footer
+- [v] Footer
 
-- [ ] A design for Large Screens such as your laptop/tablet
-- [ ] A design for Mobile Screens (less than 600px in width)
+- [v] A design for Large Screens such as your laptop/tablet
+- [v] A design for Mobile Screens (less than 600px in width)
   - https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Media_queries
 
 - [v] Uses only CSS and HTML
