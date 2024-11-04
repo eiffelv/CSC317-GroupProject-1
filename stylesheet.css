@@ -183,6 +183,10 @@ body {
   justify-content: center;
 }
 
+.mobile-image-content {
+  display: none;
+}
+
 /* Media query for mobile screens. */
 @media (max-width: 600px) {
   .navbar {
@@ -191,6 +195,45 @@ body {
   }
 
   .navbar nav ul {
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  /* Tailor make style for mobile devices */
+  .content-wrapper-Goku,
+  .content-wrapper-Vegeta,
+  .content-wrapper-Gohan,
+  .content-wrapper-Piccolo,
+  .content-wrapper-Frieza {
+    flex-direction: column;
+    padding: 5px;
+  }
+
+  .text-content {
+    padding: 10px;
+  }
+
+  .image-content-Goku img,
+  .image-content-Vegeta img,
+  .image-content-Gohan img,
+  .image-content-Piccolo img,
+  .image-content-Frieza img {
+    display: none;
+  }
+
+  .mobile-image-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .mobile-image-content img {
+    max-width: 200px;
+    height: 250px;
+    border-radius: 8px;
+  }
+
+  .footer-content {
     flex-direction: column;
     gap: 10px;
   }

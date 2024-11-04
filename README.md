@@ -1,6 +1,10 @@
-# CSC 317 Group Project 1
+# Dragonball Z: The Ultimate Story
 
-A COOL & Accessible one-page website containing at least 6 facts about a music group, sports team, tourist destination or anything related to climate change. 
+![Dragonball Z Logo](Dragonball-z-logo.png)
+
+Dive inside the story inside Dragonball Z as we go through what it is about and the characters of Dragonball Z!
+
+A CSC 317 Group Project
 
 ## Members
 
@@ -10,8 +14,8 @@ A COOL & Accessible one-page website containing at least 6 facts about a music g
 ## Deliverables
 
 - GitHub Repository
-  - [v] All group members need to be listed as contributors
-  - [v] All group members have commit history
+  - [x] All group members need to be listed as contributors
+  - [x] All group members have commit history
 - Deployment to the web via Netlify or Render
   - [ ] URL Ready
 - PDF Report
@@ -20,16 +24,20 @@ A COOL & Accessible one-page website containing at least 6 facts about a music g
 
 ## Requirements
 
-- [v] Sticky Navbar
-- [ ] Uses Pseudo-Classes/Pseudo-Elements (at least, 8 distinct ones!)
-- [v] Uses Google Font
-- [v] Primarily uses Flexbox layout (Grid is also fine!)
+- [x] Sticky Navbar
+- [x] Uses Pseudo-Classes/Pseudo-Elements (at least, 8 distinct ones!)
+- [x] Uses Google Font
+- [x] Primarily uses Flexbox layout (Grid is also fine!)
   - Can use box model for a single component
-- [v] Footer
+- [x] Footer
 
-- [v] A design for Large Screens such as your laptop/tablet
-- [v] A design for Mobile Screens (less than 600px in width)
-  - https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Media_queries
+- [x] A design for Large Screens such as your laptop/tablet
+- [x] A design for Mobile Screens (less than 600px in width)
+  - [MDN Link](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Media_queries/)
 
-- [v] Uses only CSS and HTML
-- [v] Clicking Navbar Menu Options does not lead anywhere
+- [x] Uses only CSS and HTML
+- [x] Clicking Navbar Menu Options does not lead anywhere
+
+## Disclaimer
+
+This project is not affiliated, associated, authorized, endorsed by, or in any way officially connected with the owners and copyright holder of Dragonball Z.
