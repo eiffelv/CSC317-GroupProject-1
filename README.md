@@ -4,6 +4,8 @@
 
 Dive inside the story inside Dragonball Z as we go through what it is about and the characters of Dragonball Z!
 
+[Deployed Website Link Here](https://csc317dbz.netlify.app/)
+
 A CSC 317 Group Project
 
 ## Members
@@ -17,10 +19,10 @@ A CSC 317 Group Project
   - [x] All group members need to be listed as contributors
   - [x] All group members have commit history
 - Deployment to the web via Netlify or Render
-  - [ ] URL Ready
+  - [x] URL Ready
 - PDF Report
-  - [ ] URL Clickable
-  - [ ] Explains Idea, any interesting design decision, any cool CSS/HTML/JS feature incorporated in your submission.
+  - [x] URL Clickable
+  - [x] Explains Idea, any interesting design decision, any cool CSS/HTML/JS feature incorporated in your submission.
 
 ## Requirements
 
